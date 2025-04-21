@@ -41,3 +41,12 @@ The concept of RFM (Recency, Frequency, Monetary) analysis was explained, highli
 # What Product Codes Sell Together
 * Subqueries and String aggregation(using XML path) were employed to determine which products were frequently sold together. 
 * The product codes of orders with multiple items were analyzed to identify patterns of products sold together.
+
+# [Tableau Visualization](https://public.tableau.com/app/profile/swetha.mandela/viz/RFMAnalysisDashboard1_17451688894100/RFMAnalysisDashboard1)
+* Multiple worksheets were created to depict different aspects of the data, including sales distribution, deal size distribution, sales by year, revenue by country, and sales by product line. 
+* A comprehensive dashboard was developed by combining these worksheets and customizing their appearance.
+   
+![rfm_analysis_dashboard1](https://github.com/user-attachments/assets/0ed73d79-cbe1-4d28-b0b2-d1ec4cedf16b)
+![rfm_analysis_dashboard2](https://github.com/user-attachments/assets/77991036-102b-493f-83c4-baa0b0a0eb42)
+
+
