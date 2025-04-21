@@ -16,19 +16,19 @@ The CSV file was downloaded from the GitHub repository and imported into SQL Ser
 
 # Analysis
 
-1. Sales by Product Line
+1. Sales by Product Line -
 The sales data was grouped by product line, and aggregate functions were computed to determine the product that generated the highest revenue.
 
-2. Sales by Year
+2. Sales by Year -
 The sales data was analyzed by year to identify the year with the highest sales. The investigation also aimed to determine if lower sales in a specific year were due to the company operating for only a partial year.
 
-3. Sales by Deal Size
+3. Sales by Deal Size -
 The sales data was examined based on different deal sizes to identify the deal size that generated the most revenue.
 
-4. Best Month for Sales per Year
+4. Best Month for Sales per Year -
 The best sales month for each year was determined by comparing the revenue generated in different months. This analysis provided insights into the most successful month for sales.
 
-5. What Product Line Sells Most in Best Month
+5. What Product Line Sells Most in Best Month -
 By considering the best sales month, the product line with the highest sales was identified. Furthermore, an analysis of the best-selling product line across different years was conducted.
 
 # RFM Explanation
