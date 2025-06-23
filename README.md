@@ -47,7 +47,7 @@ RFM (Recency, Frequency, Monetary) analysis was conducted, to segment customers 
    * Introduce referral bonuses to encourage them to bring in new customers. 
 - Active loyal customers : Offer perks like loyality points to increase their frequency and monetory / Life Time Value (LTV). 
 
-# What Product Codes Sell Together
+## What Product Codes Sell Together
 * Subqueries and String aggregation(using XML path) were employed to determine which products were frequently sold together. 
 * The product codes of orders with multiple items were analyzed to identify patterns of products sold together.
 
