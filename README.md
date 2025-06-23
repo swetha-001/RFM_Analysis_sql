@@ -8,11 +8,9 @@ a. Data: A sales dataset was utilized, with the file provided in the project rep
 
 b. Tableau: Tableau Public was installed to facilitate visualization and dashboard creation.
 
-c. SQL: SQL Server 2019 was used to analyze the dataset.
+c. SQL: MS SQL Server 2019 was used to analyze the dataset.
 
-d. Importing Data and Inspecting Imported Data
-
-The CSV file was downloaded from the GitHub repository and imported into SQL Server using the database engine's import task. The imported data was examined to understand its structure and contents. Distinct searches were performed on various data points, including order number, ordered price, sales order date, and status.
+The CSV file was downloaded from a GitHub repository and imported into SQL Server using the database engine's import task. The imported data was inspected to understand its structure and contents. Distinct searches were performed on various data points, including order number, ordered price, sales order date, and status.
 
 # Analysis
 
@@ -32,11 +30,22 @@ The best sales month for each year was determined by comparing the revenue gener
 By considering the best sales month, the product line with the highest sales was identified. Furthermore, an analysis of the best-selling product line across different years was conducted.
 
 # RFM Explanation
-The concept of RFM (Recency, Frequency, Monetary) analysis was explained, highlighting its utilization of past purchase behavior to segment customers into categories such as high value, low value, or lost customers.
+RFM (Recency, Frequency, Monetary) analysis was conducted, to segment customers based on past purchase behavior into categories such as lost, potential churners, new, active loyal and best customers.
 
-# Who is the Best Customer
+## Top performing segments
 * RFM values were calculated for each customer based on their recency, frequency, and monetary value to identify the best customer. 
-* Customers were then grouped into four buckets based on their RFM values, and categorized as lost, loyal, or new customers.
+* Customers were then grouped into four buckets based on their RFM values, and categorized.
+* `Potential churners`, `best customers` and `active loyal customers` were identified as top 3 revenue driving segments.
+* `22.83%` of customers are at the risk of churn.
+
+## Recommendations
+- Potential churners :
+   * Learn the reason for decrease in purchases through customer feedback and reviews.
+   * Implement re-engagement campaigns to prevent churn.
+- Best customers :
+   * Provide Premium services like priority customer support,early access to sales and exclusive discounts to maximize the retention and future revenue.
+   * Introduce referral bonuses to encourage them to bring in new customers. 
+- Active loyal customers : Offer perks like loyality points to increase their frequency and monetory / Life Time Value (LTV). 
 
 # What Product Codes Sell Together
 * Subqueries and String aggregation(using XML path) were employed to determine which products were frequently sold together. 
@@ -44,7 +53,7 @@ The concept of RFM (Recency, Frequency, Monetary) analysis was explained, highli
 
 # [Tableau Visualization](https://public.tableau.com/app/profile/swetha.mandela/viz/RFMAnalysisDashboard1_17451688894100/RFMAnalysisDashboard1)
 * Multiple worksheets were created to depict different aspects of the data, including sales distribution, deal size distribution, sales by year, revenue by country, and sales by product line. 
-* A comprehensive dashboard was developed by combining these worksheets and customizing their appearance.
+* An Interactive dashboard was developed by combining these worksheets and customizing their appearance to support data-driven decision-making and stakeholder reporting.
    
 ![rfm_analysis_dashboard1](https://github.com/user-attachments/assets/0ed73d79-cbe1-4d28-b0b2-d1ec4cedf16b)
 ![rfm_analysis_dashboard2](https://github.com/user-attachments/assets/77991036-102b-493f-83c4-baa0b0a0eb42)
