@@ -1,10 +1,10 @@
 # RFM Analysis of Sales Data in SQL
-In this project, a sales dataset was explored, and customer segmentation analysis was conducted using SQL and Tableau. The analysis provided insights into various aspects of the sales data, such as sales by product line, sales by year, sales by deal size, the best month for sales per year, and product line sales in the best month. Additionally, RFM (Recency, Frequency, Monetary) analysis was applied to segment customers based on their past purchase behavior.
+In this project, a sales dataset of a company that sells scale models was explored, and customer segmentation analysis was conducted using SQL and Tableau. The analysis provided insights into various aspects of the sales data, such as sales by product line, sales by year, sales by deal size, the best month for sales per year, and product line sales in the best month. Additionally, RFM (Recency, Frequency, Monetary) analysis was applied to segment customers based on their past purchase behavior.
 
 # Resources Needed
 The project required the following resources:
 
-a. Data: A sales dataset was utilized, with the file provided in the project repository.
+a. Data: A sales dataset from kaggle was utilized, with the file provided in the project repository.
 
 b. Tableau: Tableau Public was installed to facilitate visualization and dashboard creation.
 
@@ -39,13 +39,7 @@ RFM (Recency, Frequency, Monetary) analysis was conducted, to segment customers 
 * `22.83%` of customers are at the risk of churn.
 
 ## Recommendations
-- Potential churners :
-   * Learn the reason for decrease in purchases through customer feedback and reviews.
-   * Implement re-engagement campaigns to prevent churn.
-- Best customers :
-   * Provide Premium services like priority customer support,early access to sales and exclusive discounts to maximize the retention and future revenue.
-   * Introduce referral bonuses to encourage them to bring in new customers. 
-- Active loyal customers : Offer perks like loyality points to increase their frequency and monetory / Life Time Value (LTV). 
+
 
 ## What Product Codes Sell Together
 * Subqueries and String aggregation(using XML path) were employed to determine which products were frequently sold together. 
